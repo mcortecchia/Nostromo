@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>nostromo.autofac</id>
+    <version>0.9.0</version>
+    <title>Nostromo.Autofac</title>
+    <authors>github</authors>
+    <owners>Mirco Cortecchia</owners>
+    <licenseUrl>https://github.com/mcortecchia/Nostromo/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/mcortecchia/Nostromo</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Autofac IOC implementation for Nostromo</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>C# MVVM</tags>
+    <dependencies>
+      <dependency id="nostromo" version="0.9.0.2" />
+      <dependency id="Autofac" version="3.5.2" />
+    </dependencies>
+  </metadata>
+  <files>
+      <file src="Nostromo.Autofac.dll" target="lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1" />
+  </files>
+</package>

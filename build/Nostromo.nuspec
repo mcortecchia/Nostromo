@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>nostromo</id>
+    <version>0.9.0.2</version>
+    <title>Nostromo.PCL</title>
+    <authors>github</authors>
+    <owners>Mirco Cortecchia</owners>
+    <licenseUrl>https://github.com/mcortecchia/Nostromo/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/mcortecchia/Nostromo</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A MVVM - ViewModel first Bootstrapper (navigation + IOC)</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>C# MVVM</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+      <file src="Nostromo.dll" target="lib/portable-net45+win8+wp8+MonoAndroid10+MonoTouch10+xamarinios+xamarinmac" />
+  </files>
+</package>
