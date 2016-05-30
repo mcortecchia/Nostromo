@@ -40,7 +40,6 @@
     <Compile Include="PageViewModel.cs" />
     <Compile Include="Extensions\IPageViewModelExtensions.cs" />
     <Compile Include="ViewModel.cs" />
-    <Compile Include="NavigationViewModel.cs" />
     <Compile Include="Container.cs" />
     <Compile Include="NostromoApp.cs" />
     <Compile Include="NostromoSettings.cs" />
@@ -56,10 +55,13 @@
     <Compile Include="Extensions\PageNavigatorExtensions.cs" />
     <Compile Include="Build.cs" />
     <Compile Include="DependencyAttribute.cs" />
+    <Compile Include="Navigation\NavigationViewModel.cs" />
+    <Compile Include="Navigation\PageNavigationExtensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Interfaces\" />
     <Folder Include="Extensions\" />
+    <Folder Include="Navigation\" />
   </ItemGroup>
 </Project>

@@ -5,7 +5,7 @@ using System.Linq;
 using Nostromo.Interfaces;
 using System.Threading.Tasks;
 
-namespace Nostromo
+namespace Nostromo.Navigation
 {
 	public class NavigationViewModel: PageContainerViewModel
 	{

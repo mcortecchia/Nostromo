@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 
 using static System.Diagnostics.Debug;
+using Nostromo.Navigation;
 
 namespace Nostromo.Views
 {

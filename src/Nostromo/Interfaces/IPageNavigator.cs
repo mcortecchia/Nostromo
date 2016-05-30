@@ -10,23 +10,14 @@ namespace Nostromo.Interfaces
 		public bool UsePlatformAnimation { get; set; }
 	}
 
-	public class NavigationSettings: NavigatorSettings {
-		public bool PopToRoot { get; set; }
-		public IPageViewModel NewRoot { get; set; }
-	}
-
 	public interface IPageNavigator
 	{
-		ICommand BackCommand { get; }
 		Task NavigateToAsync (IPageViewModel viewmodel, NavigatorSettings settings);
 		Task BackAsync (NavigatorSettings settings);
 	}
 
 	public interface IPageNavigatorViewModel:IPageNavigator, IPageViewModel
 	{
-	}
-
-
-
-		
+		ICommand BackCommand { get; }
+	}	
 }

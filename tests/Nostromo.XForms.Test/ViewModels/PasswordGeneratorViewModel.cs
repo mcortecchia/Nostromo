@@ -3,6 +3,7 @@ using ReactiveUI;
 using Nostromo.Interfaces;
 using System.Windows.Input;
 using System.Threading.Tasks;
+using Nostromo.Navigation;
 
 namespace Nostromo.XForms.Test
 {

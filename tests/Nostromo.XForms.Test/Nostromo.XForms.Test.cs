@@ -4,6 +4,7 @@ using Nostromo;
 using Xamarin.Forms;
 using System.Reflection;
 using System.Linq;
+using Nostromo.Navigation;
 
 namespace Nostromo.XForms.Test
 {
